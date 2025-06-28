@@ -1,6 +1,6 @@
 # ArduPilot SITL Setup – Rudra
 
-This project contains my custom setup to simulate ArduPilot using SITL (Software-in-the-Loop) with MAVProxy and QGroundControl (QGC).
+This project contains my custom setup to simulate ArduPilot using SITL (Software-in-the-Loop) with MAVProxy and QGroundControl.
 
 ## 🚀 What’s Included
 
@@ -16,12 +16,6 @@ This project contains my custom setup to simulate ArduPilot using SITL (Software
 - ArduPilot cloned in `~/ardupilot`
 - MAVProxy installed (`pip install MAVProxy`)
 - QGroundControl installed on Windows
+s
 
----
 
-## 🔧 How to Run
-
-### Terminal 1 – Start SITL
-```bash
-cd ~/ardupilot
-./build/sitl/bin/arducopter -w --model quad --defaults=tcp5760.parm
